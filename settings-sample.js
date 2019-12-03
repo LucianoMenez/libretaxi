@@ -17,10 +17,10 @@ export default class Settings {
    */
   constructor(overrides) {
     // Firebase connection string
-    this.STATEFUL_CONNSTR = 'https://libretaxi-development.firebaseio.com/';
+    this.STATEFUL_CONNSTR = 'https://taximaismobile.firebaseio.com/';
 
     // path to Firebase credentials file
-    this.STATEFUL_CREDENTIALS_FILE = './libretaxi-development-credentials.json';
+    this.STATEFUL_CREDENTIALS_FILE = './taximaismobile-development-credentials.json';
 
     // Telegram token
     this.TELEGRAM_TOKEN = '';
@@ -29,7 +29,7 @@ export default class Settings {
     this.DEFAULT_LANGUAGE = 'en';
 
     // log file
-    this.LOG_FILE = `${appRoot.path}/libretaxi.log`;
+    this.LOG_FILE = `${appRoot.path}/taximaismobile.log`;
 
     // maximum allowed radius for drivers
     this.MAX_RADIUS = 10;
